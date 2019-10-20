@@ -60,7 +60,8 @@ img {
   }
 
 .contact-item {
-    margin-top: 60px;
+    display: inline-block;
+    margin-top: 40px;
     margin-left: 5px;
     margin-right: 5px;
     align-self: center;
