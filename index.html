@@ -9,22 +9,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     </script>
 </head>
 
 <body>
     <div class="page-container container">
+        <!-- SSide Bar (left) -->
         <div class="row">
-            <!-- SSide Bar (left) -->
             <div class="col-md-3">
-                <div class="section" style="text-align: center;">
-                    <img src="photo.jpeg" style="width: 100%;" />
-                </div>
-                <div class="section" style="text-align:center;">
-                    <p><a href="#" id="education">Education</a></p>
-                    <p><a href="#" id="experience">Experience</a></p>
-                    <p><a href="#" id="projects">Projects</a></p>
-                    <p><a href="#" id="contact">Contact</a></p>
+                <div class="sticky-top">
+                    <div class="section" style="text-align: center;">
+                        <img src="photo.jpeg" style="width: 100%" />
+                    </div>
+                    <div class="section" style="text-align:center;">
+                        <p><a href="#" id="education">Education</a></p>
+                        <p><a href="#" id="experience">Experience</a></p>
+                        <p><a href="#" id="projects">Projects</a></p>
+                        <p><a href="#" id="contact">Contact</a></p>
+                    </div>
                 </div>
             </div>
 
@@ -40,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="section" style="margin-top: 55px">
+                <div class="section" style="margin-top: 60px">
                     <!-- Education section -->
                     <div class="row">
                         <div class="col-6">
@@ -49,8 +52,10 @@
                             <p>Sept 2017 - August 2020</p>
                         </div>
                         <div class="col-6">
-                            <p>Achieved 71% module average in first year.</p>
-                            <p>Achieved 73% module average in second year.</p>
+                            <div class="row">
+                                <p>Achieved 71% module average in first year.</p>
+                                <p>Achieved 73% module average in second year.</p>
+                            </div>
                         </div>
                     </div>
 
@@ -60,9 +65,11 @@
                             <p>Sept 2015 - August 2017</p>
                         </div>
                         <div class="col-6">
-                            <p>Mathematics (B)</p>
-                            <p>Computer Science (B)</p>
-                            <p>Further Mathematics (D)</p>
+                            <div class="row">
+                                <p>Mathematics (B)
+                                    <br>Computer Science (B)
+                                    <br>Further Mathematics (D)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -76,7 +83,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="section" style="margin-top: 55px">
+                <div class="section" style="margin-top: 60px">
                     <!-- Experience section -->
                     <div class="row">
                         <div class="col-6">
@@ -85,10 +92,17 @@
                             <p>September 2018 - Present</p>
                         </div>
                         <div class="col-6">
-                            <div class="row">Elected as Inclusion Officer of the Coventry University Hackathon Society to lead and assist in the general running of the Hackathon Society with a specific focus on inclusion, health, & safety.</div>
-                            <div class="row">Co-organiser of CovHack19 (16th and 17th March 2019); a hackathon with 50+
-                                attendees during it's first year of running.</div>
-                            <div class="row">Responsible for planning & risk assessments; health, safety, and security.
+                            <div class="row">
+                                <p>Elected as Inclusion Officer of the Coventry University Hackathon Society to lead and
+                                    assist in the general running of the Hackathon Society with a specific focus on
+                                    inclusion, health, & safety.</p>
+                            </div>
+                            <div class="row">
+                                <p>Co-organiser of CovHack19 (16th and 17th March 2019); a hackathon with 50+
+                                    attendees during it's first year of running.</p>
+                            </div>
+                            <div class="row">
+                                <p>Responsible for planning & risk assessments; health, safety, and security.</p>
                             </div>
                         </div>
                     </div>
@@ -103,7 +117,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="section" style="margin-top: 55px">
+                <div class="section" style="margin-top: 60px">
                     <!-- Projects section -->
                     <div class="row">
                         <div class="col-6">
@@ -113,18 +127,27 @@
                         </div>
 
                         <div class="col-6">
-                            <div class="row">Written in Python 3; this group project was an encrypted and encoded messaging-app, implementing RSA encryption; stenographic methods; an SQLite database; and the Twitter API.</div>
-                            <div class="row">I designed and implemented the stenographic functions - using the Pillow
-                                library to
-                                encoode
-                                ciphertext
-                                binary strings into RGB pixel values, effectively 'hiding' it in the file. The decoding
-                                algorithm could
-                                retrive the embedded message from the image, returning it from the user.</div>
-                            <div class="row">As a university module, assessment was done via weekly presentations and an
-                                independent
-                                project
-                                report. Overall I achieved a First at 71%.</div>
+                            <div class="row">
+                                <p>Written in Python 3; this group project was an encrypted and encoded messaging-app,
+                                    implementing RSA encryption; stenographic methods; an SQLite database; and the
+                                    Twitter API.</p>
+                            </div>
+                            <div class="row">
+                                <p>I designed and implemented the stenographic functions - using the Pillow
+                                    library to
+                                    encoode
+                                    ciphertext
+                                    binary strings into RGB pixel values, effectively 'hiding' it in the file. The
+                                    decoding
+                                    algorithm could
+                                    retrive the embedded message from the image, returning it from the user.</p>
+                            </div>
+                            <div class="row">
+                                <p>As a university module, assessment was done via weekly presentations and an
+                                    independent
+                                    project
+                                    report. Overall I achieved a First at 71%.</p>
+                            </div>
                         </div>
 
                         <div class="col-6">
@@ -133,14 +156,19 @@
                             <p>(C#, SQL, Emgu-CV)</p>
                         </div>
                         <div class="col-6">
-                            <div class="row">My individual project was an ASL sign-language interpreter written in C#.
-                                Utilizing
-                                computer vision via Emgu-CV, my project was able to recognise basic ASL gestures via the
-                                webcam.</div>
-                            <div class="row">The solution refined images using the Watershed algorithm, and analysed the
-                                images using
-                                Haar cascades and the Viola-Jones algorithm. The user data was stored in a locally
-                                hosted MySQL server, associated with the user account. </div>
+                            <div class="row">
+                                <p>My individual project was an ASL sign-language interpreter written in C#.
+                                    Utilizing
+                                    computer vision via Emgu-CV, my project was able to recognise basic ASL gestures via
+                                    the
+                                    webcam.</p>
+                            </div>
+                            <div class="row">
+                                <p>The solution refined images using the Watershed algorithm, and analysed the
+                                    images using
+                                    Haar cascades and the Viola-Jones algorithm. The user data was stored in a locally
+                                    hosted MySQL server, associated with the user account.</p>
+                            </div>
                         </div>
                     </div>
 
@@ -152,7 +180,16 @@
                                 <div class="text">Contact</div>
                             </div>
                         </div>
+
+                        <div class="section" style="margin-top: 60px">
+                            <!-- Contacts section -->
+                            <div class="row">
+                                <!-- row -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 </body>
