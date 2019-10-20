@@ -17,6 +17,8 @@ img {
 
 .section {
     margin-top: 1.5rem;
+    margin-left: 2px;
+    margin-right: 2px;
   }
   
   p {
